@@ -165,12 +165,6 @@ section{
 
 
 /*DELIVERY*/
-
-
-#delivery img{
-    width: 100px;
-}
-
 #delivery .contacto{
     color: #ffffff;
 }
@@ -208,7 +202,6 @@ section{
         height: 250px;
     }
     
-    
     #footer p{
         font-size: 15px;
     }
@@ -231,10 +224,28 @@ section{
         width: 100%;
         padding: 0px;
     }
+    #delivery h4{
+        color: #b60719;
+        text-align: center;
+        font-weight: bold;
+    }
         
 }
+
+
+@media (min-width: 768px) { 
+    #delivery iframe{
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+@media (min-width: 992px) { ... }
+
 @media (min-width: 1200px) {
     .container{
         min-width: 1350px;
     }
 }
+
+
