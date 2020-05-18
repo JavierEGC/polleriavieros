@@ -35,7 +35,14 @@ section{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
     min-height: 80px;
     border-bottom: 4px solid #A00000;
+    text-align: center;
+}
 
+.navbar .collapse a:hover{
+    color: #ffffff;
+    font-weight: bold;
+    background: #dc3545;
+    
 }
 
 .logo-brand{
