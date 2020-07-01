@@ -33,16 +33,17 @@ section{
 .navbar{
     background: #ffffff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
-    min-height: 80px;
+    min-height: 60px;
     border-bottom: 4px solid #A00000;
     text-align: center;
 }
-
+.navbar img{
+    height: 70px;
+}
 .navbar .collapse a:hover{
     color: #ffffff;
     font-weight: bold;
     background: #dc3545;
-    
 }
 
 .logo-brand{
@@ -62,9 +63,10 @@ section{
     background-image: url(../imagenes/vierospollos.jpg);
     background-size: cover;
     padding-top: 90px;
-    min-height: 700px;
+    min-height: 770px;
     color: #ffffff;
     margin-top: 115px;
+    margin-top: 90px;
 }
 #hero h1{
     font-family: 'Titillium Web', sans-serif;
@@ -93,8 +95,6 @@ section{
 #portafolio p{
     font-size: 22px;
 }
-
-
 .portafolio-container{
     position: relative;
     overflow: hidden;
@@ -120,6 +120,7 @@ section{
     bottom: 25px;
     left: 25px;
     z-index: 9000;
+    
 }
 
 .portafolio-defails a h2, 
@@ -139,7 +140,6 @@ section{
     width: 100%;
     margin-bottom: 15px;
 }
-
 .publicidad{
     width: 100%;
     height: auto;
@@ -151,6 +151,8 @@ section{
     width: 100%;
     height: auto;
     background: #dc3545;
+    text-align: center;
+    border-radius: 20px;
 }
 
 #aboutus .publicidad h5{
@@ -197,31 +199,46 @@ section{
 
 /*OVERVIEW*/
 @media (max-width: 575.98px) {  
-    h1{
-        font-size: 20px;
-        line-height: normal;
+    section{
+        padding: 60px 0;
+        padding-bottom: 10px;
     }
-    p{
+    .navbar img{
+        height: 50px;
+    }
+    .navbar i{
+        font-size: 23px;
+    }
+    
+    #hero{
+        margin-top: 70px;
+    }
+    #hero h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    #hero p{
         font-size: 20px;
         line-height: 30px;
+        margin-top: 40px;
+    }
+
+    #portafolio h2{
+        font-size: 30px;
+    }
+    #portafolio p{
+        font-size: 18px;
     }
     .portafolio-container img{
         height: 250px;
     }
     
-    #footer p{
-        font-size: 15px;
+    #aboutus h2{
+        font-size: 28px;
     }
-    
-    section{
-        padding: 60px 0;
-    }
-    
     #aboutus .til-producto h3{
         text-align: center;
-    }
-    section{
-        padding-bottom: 10px;
+        font-size: 20px;
     }
     #delivery img{
         width: 80px;
@@ -236,6 +253,11 @@ section{
         text-align: center;
         font-weight: bold;
     }
+
+    #footer p{
+        font-size: 15px;
+    }
+    
         
 }
 
