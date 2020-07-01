@@ -259,14 +259,18 @@ section{
         width: 80px;
         margin-top: 60px;
     }
-    #delivery iframe{
-        width: 100%;
-        padding: 0px;
-    }
     #delivery h4{
         color: #dc3545;
         text-align: center;
         font-weight: bold;
+    }
+    #delivery p{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    }
+    #delivery p:hover{
+        color: thistle;
     }
     #delivery .contacto {
         margin-bottom: 40px;
